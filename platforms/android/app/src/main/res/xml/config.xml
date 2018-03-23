@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="fr.kojuri.saoos" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="WikitudePlugin">
+        <param name="android-package" value="com.wikitude.phonegap.WikitudePlugin" />
+    </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>SAO OS</name>
+    <description>
+        SWORD ART ONLINE The Movie - Ordinal Scale
+    </description>
+    <author email="corentin.lux15@gmail.com" href="https://pro.kojuri.com">
+        Kojuri
+    </author>
+    <content src="index.html" />
+    <icon src="res/icon.png" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-navigation href="https://youtube.com/*" />
+    <allow-intent href="market:*" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="Fullscreen" value="true" />
+    <preference name="android-minSdkVersion" value="19" />
+</widget>
